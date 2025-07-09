@@ -1,7 +1,4 @@
-/* This is a CSS Comment */
-/* Like <!-- --> HTML comments */
 
-/* Remove margins and stretching */
 * {
   margin: 0;
   padding: 0;
@@ -27,4 +24,15 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
+}
+#spookster {
+  position: relative;
+  border: 0.5vmin solid black;
+  width: 30vmin;
+  height: 30vmin;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  border-bottom: 0;
+  box-sizing: border-box;
+  background: #ffdcff;
 }
