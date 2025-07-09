@@ -1,0 +1,30 @@
+/* This is a CSS Comment */
+/* Like <!-- --> HTML comments */
+
+/* Remove margins and stretching */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*New! */
+#base {
+  background: white;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+#background {
+  width: 70vmin;
+  height: 70vmin;
+  background: #e8e0ff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
