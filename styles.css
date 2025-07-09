@@ -25,6 +25,7 @@
   justify-content: center;
   flex-direction: column;
 }
+
 #spookster {
   position: relative;
   border: 0.5vmin solid black;
